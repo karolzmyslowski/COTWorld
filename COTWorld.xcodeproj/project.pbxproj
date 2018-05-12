@@ -7,24 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F3EAB1120A725CF007A2646 /* COTWorldTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3EAB1020A725CF007A2646 /* COTWorldTests.swift */; };
+		7F436FBF20A6F505007981BE /* NiceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F436FBE20A6F505007981BE /* NiceButton.swift */; };
+		7F7300AA20A23C950030295D /* CountryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7300A920A23C950030295D /* CountryCell.swift */; };
 		7FDCDE5D20A21AEB004ED149 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCDE5C20A21AEB004ED149 /* AppDelegate.swift */; };
-		7FDCDE5F20A21AEB004ED149 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCDE5E20A21AEB004ED149 /* ViewController.swift */; };
+		7FDCDE5F20A21AEB004ED149 /* CountriesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCDE5E20A21AEB004ED149 /* CountriesVC.swift */; };
 		7FDCDE6220A21AEB004ED149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCDE6020A21AEB004ED149 /* Main.storyboard */; };
 		7FDCDE6420A21AF5004ED149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCDE6320A21AF5004ED149 /* Assets.xcassets */; };
 		7FDCDE6720A21AF5004ED149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FDCDE6520A21AF5004ED149 /* LaunchScreen.storyboard */; };
+		7FDCDE7020A21B1D004ED149 /* Country.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCDE6F20A21B1D004ED149 /* Country.swift */; };
+		7FDCDE7320A21D7E004ED149 /* CountryService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDCDE7220A21D7E004ED149 /* CountryService.swift */; };
+		7FDF541120A5EC1600E48198 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDF541020A5EC1600E48198 /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		7F3EAB1320A725CF007A2646 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7FDCDE5120A21AEB004ED149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7FDCDE5820A21AEB004ED149;
+			remoteInfo = COTWorld;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		7F3EAB0E20A725CF007A2646 /* COTWorldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = COTWorldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3EAB1020A725CF007A2646 /* COTWorldTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = COTWorldTests.swift; sourceTree = "<group>"; };
+		7F3EAB1220A725CF007A2646 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F436FBE20A6F505007981BE /* NiceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceButton.swift; sourceTree = "<group>"; };
+		7F7300A920A23C950030295D /* CountryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCell.swift; sourceTree = "<group>"; };
 		7FDCDE5920A21AEB004ED149 /* COTWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = COTWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDCDE5C20A21AEB004ED149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FDCDE5E20A21AEB004ED149 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7FDCDE5E20A21AEB004ED149 /* CountriesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesVC.swift; sourceTree = "<group>"; };
 		7FDCDE6120A21AEB004ED149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7FDCDE6320A21AF5004ED149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7FDCDE6620A21AF5004ED149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FDCDE6820A21AF5004ED149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FDCDE6F20A21B1D004ED149 /* Country.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Country.swift; sourceTree = "<group>"; };
+		7FDCDE7220A21D7E004ED149 /* CountryService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryService.swift; sourceTree = "<group>"; };
+		7FDF541020A5EC1600E48198 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		7F3EAB0B20A725CF007A2646 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FDCDE5620A21AEB004ED149 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +66,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7F3EAB0F20A725CF007A2646 /* COTWorldTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F3EAB1020A725CF007A2646 /* COTWorldTests.swift */,
+				7F3EAB1220A725CF007A2646 /* Info.plist */,
+			);
+			path = COTWorldTests;
+			sourceTree = "<group>";
+		};
 		7FDCDE5020A21AEB004ED149 = {
 			isa = PBXGroup;
 			children = (
 				7FDCDE5B20A21AEB004ED149 /* COTWorld */,
+				7F3EAB0F20A725CF007A2646 /* COTWorldTests */,
 				7FDCDE5A20A21AEB004ED149 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				7FDCDE5920A21AEB004ED149 /* COTWorld.app */,
+				7F3EAB0E20A725CF007A2646 /* COTWorldTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,19 +96,74 @@
 		7FDCDE5B20A21AEB004ED149 /* COTWorld */ = {
 			isa = PBXGroup;
 			children = (
-				7FDCDE5C20A21AEB004ED149 /* AppDelegate.swift */,
-				7FDCDE5E20A21AEB004ED149 /* ViewController.swift */,
+				7FDF541220A5F3D700E48198 /* View */,
+				7FDCDE7120A21D5F004ED149 /* Services */,
+				7FDCDE6E20A21AFF004ED149 /* Model */,
+				7FDCDE7420A23046004ED149 /* Controller */,
 				7FDCDE6020A21AEB004ED149 /* Main.storyboard */,
 				7FDCDE6320A21AF5004ED149 /* Assets.xcassets */,
 				7FDCDE6520A21AF5004ED149 /* LaunchScreen.storyboard */,
 				7FDCDE6820A21AF5004ED149 /* Info.plist */,
+				7FDCDE5C20A21AEB004ED149 /* AppDelegate.swift */,
 			);
 			path = COTWorld;
+			sourceTree = "<group>";
+		};
+		7FDCDE6E20A21AFF004ED149 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7FDCDE6F20A21B1D004ED149 /* Country.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7FDCDE7120A21D5F004ED149 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7FDCDE7220A21D7E004ED149 /* CountryService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7FDCDE7420A23046004ED149 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7FDCDE5E20A21AEB004ED149 /* CountriesVC.swift */,
+				7FDF541020A5EC1600E48198 /* DetailVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		7FDF541220A5F3D700E48198 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7F7300A920A23C950030295D /* CountryCell.swift */,
+				7F436FBE20A6F505007981BE /* NiceButton.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		7F3EAB0D20A725CF007A2646 /* COTWorldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F3EAB1520A725CF007A2646 /* Build configuration list for PBXNativeTarget "COTWorldTests" */;
+			buildPhases = (
+				7F3EAB0A20A725CF007A2646 /* Sources */,
+				7F3EAB0B20A725CF007A2646 /* Frameworks */,
+				7F3EAB0C20A725CF007A2646 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F3EAB1420A725CF007A2646 /* PBXTargetDependency */,
+			);
+			name = COTWorldTests;
+			productName = COTWorldTests;
+			productReference = 7F3EAB0E20A725CF007A2646 /* COTWorldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		7FDCDE5820A21AEB004ED149 /* COTWorld */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7FDCDE6B20A21AF5004ED149 /* Build configuration list for PBXNativeTarget "COTWorld" */;
@@ -94,6 +191,10 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "Karol Zmyslowski";
 				TargetAttributes = {
+					7F3EAB0D20A725CF007A2646 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = 7FDCDE5820A21AEB004ED149;
+					};
 					7FDCDE5820A21AEB004ED149 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -113,11 +214,19 @@
 			projectRoot = "";
 			targets = (
 				7FDCDE5820A21AEB004ED149 /* COTWorld */,
+				7F3EAB0D20A725CF007A2646 /* COTWorldTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		7F3EAB0C20A725CF007A2646 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FDCDE5720A21AEB004ED149 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -131,16 +240,37 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		7F3EAB0A20A725CF007A2646 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3EAB1120A725CF007A2646 /* COTWorldTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FDCDE5520A21AEB004ED149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FDCDE5F20A21AEB004ED149 /* ViewController.swift in Sources */,
+				7FDCDE7320A21D7E004ED149 /* CountryService.swift in Sources */,
+				7FDCDE5F20A21AEB004ED149 /* CountriesVC.swift in Sources */,
+				7F436FBF20A6F505007981BE /* NiceButton.swift in Sources */,
+				7F7300AA20A23C950030295D /* CountryCell.swift in Sources */,
+				7FDCDE7020A21B1D004ED149 /* Country.swift in Sources */,
 				7FDCDE5D20A21AEB004ED149 /* AppDelegate.swift in Sources */,
+				7FDF541120A5EC1600E48198 /* DetailVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F3EAB1420A725CF007A2646 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7FDCDE5820A21AEB004ED149 /* COTWorld */;
+			targetProxy = 7F3EAB1320A725CF007A2646 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7FDCDE6020A21AEB004ED149 /* Main.storyboard */ = {
@@ -162,6 +292,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		7F3EAB1620A725CF007A2646 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2X43E6VD5;
+				INFOPLIST_FILE = COTWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = karolZmyslowski.COTWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COTWorld.app/COTWorld";
+			};
+			name = Debug;
+		};
+		7F3EAB1720A725CF007A2646 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = R2X43E6VD5;
+				INFOPLIST_FILE = COTWorldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = karolZmyslowski.COTWorldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/COTWorld.app/COTWorld";
+			};
+			name = Release;
+		};
 		7FDCDE6920A21AF5004ED149 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -315,6 +485,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		7F3EAB1520A725CF007A2646 /* Build configuration list for PBXNativeTarget "COTWorldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3EAB1620A725CF007A2646 /* Debug */,
+				7F3EAB1720A725CF007A2646 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7FDCDE5420A21AEB004ED149 /* Build configuration list for PBXProject "COTWorld" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
